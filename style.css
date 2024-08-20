@@ -1,0 +1,140 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: auto;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.nav-content {
+  color: #000;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  letter-spacing: 4px;
+  color: #000;
+}
+
+.nav-links {
+  padding: 12px;
+}
+
+.nav-links a {
+  padding: 12px;
+}
+
+nav a:hover {
+  background-color: #d3d3d3;
+}
+
+.br-header {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: 16px;
+}
+
+.br-header-h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Verdana, sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+
+.br-header-h1 h1 {
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.br-styling {
+  color: #fff;
+  background-color: #000;
+  opacity: 0.75;
+  padding: 8px 16px;
+}
+
+.project-section {
+  max-width: 1564px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-section-h3 {
+  padding: 32px 16px;
+}
+
+.project-section-h3 h3 {
+  border-bottom: 1px solid;
+  border-color: #f1f1f1;
+  padding: 16px 10px;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.project-section-first-row {
+  display: flex;
+  padding: 0 16px;
+}
+
+.project-section-first-row--item {
+  position: relative;
+  margin-bottom: 13px;
+  width: 25%;
+  padding: 0px 8px;
+}
+
+.project-section-first-row--item-objects {
+  position: relative;
+}
+
+.project-section-first-row--item-objects img {
+  width: 100%;
+}
+
+.project-section-second-row {
+  display: flex;
+  padding: 0 16px;
+}
+
+.project-section-second-row--item {
+  position: relative;
+  margin-bottom: 13px;
+  width: 25%;
+  padding: 0px 8px;
+}
+
+.project-section-second-row--item-objects {
+  position: relative;
+}
+
+.project-section-second-row--item-objects img {
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #000;
+  padding: 8px 16px;
+}
