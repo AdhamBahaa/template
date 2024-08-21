@@ -138,3 +138,41 @@ nav a:hover {
   background-color: #000;
   padding: 8px 16px;
 }
+
+.about-section--p {
+  margin: 15px 0px;
+}
+
+.bio-section {
+  display: flex;
+  padding: 0px 8px;
+  filter: grayscale(75%);
+}
+
+.bio-section--item {
+  margin-bottom: 13px;
+  width: 25%;
+  padding: 0px 8px;
+}
+
+.bio-section--item img {
+  width: 100%;
+}
+
+.role {
+  opacity: 0.6;
+}
+
+.bio-section--item p button {
+  color: #000;
+  background-color: #f1f1f1;
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: 0;
+}
+
+.contact:hover {
+  background-color: gray;
+  cursor: pointer;
+}
