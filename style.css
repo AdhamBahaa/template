@@ -2,7 +2,8 @@ body {
   font-family: Verdana, sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
@@ -70,11 +71,13 @@ nav a:hover {
   padding: 8px 16px;
 }
 
+/* Project Section */
 .project-section {
-  max-width: 1564px;
+  max-width: 1560px;
   padding: 8px 16px;
   margin-left: auto;
   margin-right: auto;
+  /* width: 100%; */
 }
 
 .project-section-h3 {
@@ -139,6 +142,7 @@ nav a:hover {
   padding: 8px 16px;
 }
 
+/* About Section */
 .about-section--p {
   margin: 15px 0px;
 }
@@ -175,4 +179,128 @@ nav a:hover {
 .contact:hover {
   background-color: gray;
   cursor: pointer;
+}
+
+/* Desktop */
+@media screen and (min-width: 1500px) {
+  body {
+    /* background-color: blueviolet; */
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1499px) {
+  body {
+    /* background-color: antiquewhite; */
+    position: absolute;
+  }
+  nav {
+    font-size: 28px;
+  }
+  .project-section-h3 h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .br-header-h1 {
+    font-size: 28px;
+  }
+  .project-section-first-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-section-first-row--item {
+    width: 40%;
+  }
+  .project-section-second-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-section-second-row--item {
+    width: 40%;
+  }
+  .top-left {
+    font-size: 28px;
+  }
+  .about-section--p {
+    font-size: 24px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .bio-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bio-section--item {
+    width: 40%;
+  }
+  .bio-section--item h3 {
+    font-size: 28px;
+  }
+  .bio-section--item p {
+    font-size: 24px;
+  }
+  .bio-section--item p button {
+    font-size: 28px;
+  }
+}
+
+/* Smartphones */
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  body {
+    /* background-color: rgb(202, 47, 12); */
+    position: absolute;
+  }
+  nav {
+    font-size: 50px;
+  }
+  .br-header-h1 {
+    font-size: 32px;
+  }
+  .project-section-h3 h3 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .project-section-first-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-section-first-row--item {
+    width: 80%;
+  }
+  .project-section-second-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .project-section-second-row--item {
+    width: 80%;
+  }
+  .top-left {
+    font-size: 40px;
+  }
+
+  .about-section--p {
+    font-size: 36px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+  }
+  .bio-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .bio-section--item {
+    width: 80%;
+  }
+  .bio-section--item h3 {
+    font-size: 50px;
+  }
+  .bio-section--item p {
+    font-size: 40px;
+  }
+  .bio-section--item p button {
+    font-size: 45px;
+  }
 }
